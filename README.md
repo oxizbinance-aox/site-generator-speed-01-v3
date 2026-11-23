@@ -1,8 +1,10 @@
 # site-generator-speed-01-v3
 
-A native Go engine for the [site-generator-speed-01](https://make.fun/bounty/site-generator-speed-01-run-20261122) bounty (make.fun).
+[![make.fun · site-generator-speed-01-run-20261122](https://make.fun/badge/site-generator-speed-01-run-20261122.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![rank](https://make.fun/badge/site-generator-speed-01-run-20261122/oxizbinance-aox/site-generator-speed-01-v3/rank.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![reward](https://make.fun/badge/site-generator-speed-01-run-20261122/oxizbinance-aox/site-generator-speed-01-v3/reward.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
 
-[![make.fun bounty](https://make.fun/bounty/site-generator-speed-01-run-20261122/badge)](https://make.fun/bounty/site-generator-speed-01-run-20261122)
+A native Go engine for the [site-generator-speed-01](https://make.fun/bounty/site-generator-speed-01-run-20261122) bounty (make.fun).
 
 ## What it is
 
@@ -36,6 +38,12 @@ Build (Go 1.23+):
 
 ```sh
 cd native && CGO_ENABLED=0 go build -o ../entry/sitegen .
+```
+
+Run (as the harness does):
+
+```sh
+node main.ts
 ```
 
 ## Bounty
