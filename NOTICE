@@ -1,0 +1,11 @@
+NOTICE
+
+This entry reimplements the `makefun-site` reference program shipped in the
+site-generator-speed-01 bounty kit (program/generator/vendor/makefun-site/),
+which is make.fun's own static site generator. The reference program's header
+credits its upstreams (metalsmith's plugin shape and marked's lexer/parser
+shape); this port follows the same rules and produces the same output.
+
+The Go engine in `sitegen` is an original implementation written for this
+entry. It uses only the Go standard library plus golang.org/x/text (NFKD
+normalisation for slugs), under their respective licences.
